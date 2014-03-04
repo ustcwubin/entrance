@@ -9,4 +9,7 @@ $(function() {
     entrance.removeClass('open');
     entranceInner.stop(true).slideUp(200);
   });
+
+  new FocusPic('js-m8-slideshow');
+  new FocusPic('js-cndzz-slideshow');
 })
