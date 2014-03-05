@@ -211,9 +211,9 @@
         </div>
         <div class="thumbnail">
           <div class="thumbnail-body">
-            <form id="frm-search" class="d5-search-form clearfix" method="get" action="search">
-              <input type="text" class="d5-search-input" placeholder="请输入元器件型号或描述">
-              <button class="d5-search-btn" type="submit">搜索</button>
+            <form id="frm-search" class="d5-search-form clearfix" method="get" action="http://www.datasheet5.com/search">
+              <input type="text" class="d5-search-input" placeholder="请输入元器件型号或描述" name="q">
+              <button class="d5-search-btn">搜索</button>
             </form>
             <div class="d5-category">
               <a href="http://www.datasheet5.com/search?category=2" title="测试测量">
@@ -279,11 +279,11 @@
             <tbody>
               <tr>
                 <td>
-                  <a href="" class="eef-job-indent">硬件开发工程师</a>
+                  <a href="http://www.job4ee.com/jobs/jobs-list.php?key=%D3%B2%BC%FE%BF%AA%B7%A2%B9%A4%B3%CC%CA%A6" class="eef-job-indent">硬件开发工程师</a>
                 <td>上海
               <tr>
                 <td>
-                  <a href="" class="eef-job-indent">嵌入式系统开发工程师</a>
+                  <a href="http://www.job4ee.com/jobs/jobs-list.php?key=%C7%B6%C8%EB%CA%BD%CF%B5%CD%B3%BF%AA%B7%A2%B9%A4%B3%CC%CA%A6&category=&subclass=&district=&sdistrict=&settr=&trade=&wage=&nature=&scale=&inforow=&sort=&page=" class="eef-job-indent">嵌入式系统开发工程师</a>
                 <td>深圳
             </tbody>
           </table>
@@ -300,11 +300,17 @@
         </div>  
       </div>
       <div class="clearfix entrance-footer">
-        <a href="">
+        <a href="http://www.openhw.org/">
           <img width="120" height="50" src="http://www.eefocus.com/images/logo/openhw.gif">
         </a>
-        <a href="">
+        <a href="http://www.freescaleic.org/">
           <img width="120" height="50" src="http://www.eefocus.com/images/logo/FreescaleIC.gif">
+        </a>
+        <a href="http://www.stmcu.org/">
+          <img width="120" height="50" src="http://www.eefocus.com/images/logo/stm.gif">
+        </a>
+        <a href="http://www.infineonic.org/">
+          <img width="120" height="50" src="http://www.eefocus.com/images/logo/infineonic.jpg">
         </a>
       </div>
     </div>
