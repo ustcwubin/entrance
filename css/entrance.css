@@ -109,12 +109,12 @@ h4 {
   display: block;
   padding: 8px 0;
   color: #d70c1e;
-  border: 1px solid transparent;
   border-bottom: none;
   font-size: 18px;
 }
 
-.entrance-brand:hover{
+.entrance-container a:hover{
+  color: #d70c1e;
   text-decoration: none;
 }
 
