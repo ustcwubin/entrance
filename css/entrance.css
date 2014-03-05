@@ -10,6 +10,7 @@ body {
   padding: 0;
   color: #4d4d4d;
   font: 13px/1.5 '微软雅黑',"Helvetica Neue",Helvetica,Arial;
+  background-color: #f4f4f4;
 }
 
 input {
@@ -86,7 +87,7 @@ h4 {
 
 /* Color */
 .text-muted {
-  color: #808080;
+  color: #9b9b9b;
 }
 
 /* Navbar */
@@ -101,15 +102,20 @@ h4 {
 .entrance-container {
   position: relative;
   float: left;
-  margin-right: 40px;
+  margin-right: 55px;
 }
 
 .entrance-brand {
   display: block;
-  padding: 14px 15px;
+  padding: 8px 0;
   color: #d70c1e;
   border: 1px solid transparent;
   border-bottom: none;
+  font-size: 18px;
+}
+
+.entrance-brand:hover{
+  text-decoration: none;
 }
 
 .entrance-inner {
@@ -194,6 +200,7 @@ h4 {
   float: left;
   height: 380px;
   position: relative;
+  background-color: #ffffff;
 }
 
 .thumbnail-body {
@@ -207,11 +214,15 @@ h4 {
 }
 
 .thumbnail-list li {
-  padding: 8px 20px;
+  padding: 10px 20px;
   border-top: 1px solid #ebe9e9;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+
+.thumbnail-list li a {
+	color: #333333;
 }
 
 .thumbnail-footer {
@@ -227,7 +238,8 @@ h4 {
 .thumbnail-footer-media {
   display: block;
   background: #f6f6f6;
-  padding: 10px 15px;
+  padding: 5px 15px;
+  background-color: #f6f6f6;
 }
 
 .thumbnail-footer-media:hover {
@@ -246,7 +258,7 @@ h4 {
 }
 
 .d5-search-form {
-  margin: 30px 0 40px 0;
+  margin: 50px 0 50px 0;
 }
 
 .d5-search-btn {
@@ -259,13 +271,13 @@ h4 {
   font-size: 14px;
   float: left;
   margin: 0;
-  height: 40px;
+  height: 44px;
 }
 
 .d5-search-input {
   width: 250px;
-  height: 40px;
-  line-height: 40px;
+  height: 44px;
+  line-height: 44px;
   padding-left: 20px;
   float: left;
   border: 1px solid #d81223;
@@ -277,6 +289,7 @@ h4 {
 
 .d5-category a {
   padding-right: 15px;
+  color: #333333;
 }
 
 .eef-job {
@@ -329,6 +342,7 @@ h4 {
 
 .media-body {
   overflow: hidden;
+  color: #999999;
 }
 
 .media-heading {
@@ -350,6 +364,7 @@ th {
 .table {
   width: 100%;
   margin-bottom: 20px;
+  color: #9b9b9b;
 }
 
 .table > thead > tr > th,
@@ -384,6 +399,10 @@ th {
   margin-right: 0;
 }
 
+.slideshow-inner li p {
+	color: #9b9b9b;
+}
+
 .slideshow-indicator {
   list-style: none;
   padding: 0;
@@ -394,8 +413,8 @@ th {
   cursor: pointer;
   margin-right: 10px;
   background: #c3c3c3;
-  width: 12px;
-  height: 12px;
+  width: 8px;
+  height: 8px;
   display: inline-block;
 }
 
@@ -419,12 +438,15 @@ th {
   right: 0;
   bottom: 0;
   padding: 10px 10px 40px;
-  background: rgba(0, 0, 0, .3);
+  background: rgba(187, 10, 25, .6);
   margin: 0;
+  height: 128px;
 }
 
 .m8-slideshow-title a {
   color: #fff;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .m8-slideshow-indicator {
@@ -432,7 +454,7 @@ th {
   z-index: 11;
   left: 0;
   right: 0;
-  bottom: 10px;
+  bottom: 15px;
   margin: 0;
 }
 
